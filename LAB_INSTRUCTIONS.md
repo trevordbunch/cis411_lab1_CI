@@ -51,11 +51,12 @@ mutation {
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
 2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR_GITHUB_HANDLE]) by clicking _Add Project_.
 3. Follow the setup instructions, including creating the .circleci directory and adding the default config.yml file.
-![CircleCI setup](../assets/circleci_setup.png "CircleCI Setup")
+
+![CircleCI setup](/assets/circleci_setup.png)
 - Create a directory name .circleci in your project ```mkdir .circleci```.
 - Add a file to that directory named config.yml ```code .circleci/config.yml```.
 - Copy the content for the setup instructions into config.yml.
-4. **Document in your lab report** what your .circleci/config.yml is doing in as much detail as you can determine. A diagram is not required but is highlt encouraged. **Additionally, answer the following questions.**
+1. **Document in your lab report** what your .circleci/config.yml is doing in as much detail as you can determine. A diagram is not required but is highlt encouraged. **Additionally, answer the following questions.**
 - What do the various sections on the config file do?
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
