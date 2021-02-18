@@ -65,8 +65,13 @@ a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 ## Step 5: Setup a Continuous Integration configuration
 
 - What is the .circleci/config.yml doing?  
+  - The file describes the actions taken when new code is pushed to the remote repo. From what I can tell, there is a built-in test process for node apps and it is running that to make sure that the server is working as expected.
 - What do the various sections on the config file do?  
+  - Based on the intro given when I signed up for CircleCI, it looks like the `orbs` section imports jobs from other locations. In this case it seems to be creating an orb called 'node' that is a reference to some circleci built-in process called 'node@3.0.0'.
+  - The `workflows` section outlines the steps taken when building. In this case, a workflow called 'node-tests' is defined which only contains a single job - the test job found within the imported 'node' orb.
+  - I would not be surprised if my terminology above is incorrect, but I think I have the basic relationships between the sections down correctly.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
+  - It means the build passed the outlined steps. Ideally, this would mean that there is nothing wrong with the new code, and that it will merge flawlessly into the existing code base. Practically, though, it is possible that there were things missed by the integration tests that could cause unforseen issues.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
 
 ## Step 6: Merging the feature branch
