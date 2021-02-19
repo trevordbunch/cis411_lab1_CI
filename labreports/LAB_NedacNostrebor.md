@@ -2,18 +2,18 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Caden Robertson
+**GitHub Handle:** NedacNostrebor
+**Repository:** https://github.com/NedacNostrebor/cis411_lab1_CI
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
+- The URL of my forked repository: https://github.com/NedacNostrebor/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents...
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is...
-- The command to navigate to the directory when I open up the command line is...
+- My local file directory is ```C:Users\Sling\Git_test\cis411lab_CI```
+- The command to navigate to the directory when I open up the command line is ```cd cis411_lab1_CI```
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -21,9 +21,9 @@ ___
 {
   "data": {
     "mutateAccount": {
-      "id": "5c345bb5-0c54-44ae-8e57-f5f00b0eddbb",
-      "name": "TREVOR BUNCH",
-      "email": "tbunch@messiah.edu"
+      "id": "17df29db-2c8f-456a-a970-fba699ce6fcf",
+      "name": "Caden N. Robertson",
+      "email": "cr1350@messiah.edu"
     }
   }
 }
@@ -32,7 +32,17 @@ ___
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-Insert the logs here.
+d7b4a9f (HEAD -> labreport, origin/labreport) Coppied lab report template @trevordbunch
+c552213 (origin/main, origin/HEAD, main) Merge pull request #3 from hallienicholas/main
+78ede9f Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
+a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
+1ead543 remove LAB.md
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 
