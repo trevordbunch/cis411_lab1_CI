@@ -11,10 +11,12 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/hallienicholas/cis411_lab1_CI.git
 - The accompanying diagram of what my fork precisely and conceptually represents...
+  ![Fork Diagram](../assets/diagram_fork.png)
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is... c:Documents/Github/cis411_lab1_CI
 - The command to navigate to the directory when I open up the command line is...
+  cd Documents/GitHub/cis411_lab1_CI
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -39,6 +41,7 @@ dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents... fork commit and push
+  ![Feature Branch](../assets/branch.png)
 
 # Step 5: Setup a Continuous Integration configuration
 
@@ -54,7 +57,7 @@ Each time it goes through the code, there is sequence of steps it cycles through
   **When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?**  
    
 
-  **If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?**  
+  **If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?**
    
 
 # Step 6: Merging the feature branch
