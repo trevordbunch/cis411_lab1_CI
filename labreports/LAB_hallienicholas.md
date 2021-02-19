@@ -44,12 +44,12 @@ a4096db Create README.md
 
 **What is the .circleci/config.yml doing?**
   
-Each time it goes through the code, there is sequence of steps it cycles through which can be seen in the image below.
+Each time it goes through the code, there is sequence of steps it cycles through which can be seen in the image below. First, it starts the environment and gets everything going. Then, it makes sure the code is working together and branches are up to date. After that, the cache is restored and installs dependencies for the project. Finally it saves the cache and makes sure the dependencies are running properly.
 
 ![Config.yml Sequence](../assets/yml_sequence.png)
 
-- What do the various sections on the config file do?  
-   
+**What do the various sections on the config file do?**
+   First, the config file tells you which version it is, and then gets into processes. 
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
    
