@@ -45,19 +45,25 @@ a4096db Create README.md
 
 # Step 5: Setup a Continuous Integration configuration
 
-**What is the .circleci/config.yml doing?**
+1) **What is the .circleci/config.yml doing?**
   
 Each time it goes through the code, there is sequence of steps it cycles through which can be seen in the image below. First, it starts the environment and gets everything going. Then, it makes sure the code is working together and branches are up to date. After that, the cache is restored and installs dependencies for the project. Finally it saves the cache and makes sure the dependencies are running properly.
 
 ![Config.yml Sequence](../assets/yml_sequence.png)
 
-**What do the various sections on the config file do?**
-   First, the config file tells you which version it is, and then gets into processes. 
+2) **What do the various sections on the config file do?**
 
-  **When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?**  
+   The process it goes through is described in some detail above, but when it comes to the actual code, the config file first tells you which version it is. After this, it gets into the processes it will carry out. After the image that it includes, you can specify dependencies and view which working directory it is in. For the main steps, it first checks out the code to the working directory to make it easier. Then, if there is a previously saved cache based on a key, it is restored. 
+   
+   Under that, it calls for any dependencies to be downloaded and cached that might be necessary for implementation. There is then a run function with a "yarn install" command which installs those specified dependencies. The cache is then saved and paths and keys are specified. Last, the command "yarn test" is run which runs the specified build and results are returned.
+
+  3) **When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?**
+
+  This indicates philosophically that the build has entered into the VM and is fit to run as it should, thus being ready for release. Practically speaking, it has been debugged and there doesn't seem to be anything wrong with the build.
+
+  4) **If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?**
    
 
-  **If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?**
    
 
 # Step 6: Merging the feature branch
