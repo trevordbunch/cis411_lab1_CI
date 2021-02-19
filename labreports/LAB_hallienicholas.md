@@ -18,28 +18,35 @@ ___
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
-``` json
-{
-  "data": {
-    "mutateAccount": {
-      "id": "5c345bb5-0c54-44ae-8e57-f5f00b0eddbb",
-      "name": "TREVOR BUNCH",
-      "email": "tbunch@messiah.edu"
-    }
-  }
-}
-```
+![GraphQL Response](../assets/GraphQL.png)
 
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-Insert the logs here.
+Hallies-MacBook-Pro:cis411_lab1_CI hallie1$ git log --oneline
+6518b25 (HEAD -> labreports, origin/labreports) Create LAB_hallienicholas.md
+78ede9f (origin/main, origin/HEAD, main) Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
+a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
+1ead543 remove LAB.md
+8c38613 Initial commit of labreport with @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents... fork commit and push
 
 # Step 5: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?  
 
+**What is the .circleci/config.yml doing?**
+  
+Each time it goes through the code, there is sequence of steps it cycles through which can be seen in the image below.
+
+![Config.yml Sequence](../assets/yml_sequence.png)
 
 - What do the various sections on the config file do?  
    
@@ -81,7 +88,7 @@ d36ad90 Update LAB.md
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/circle_ci.png)
 
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
