@@ -8,12 +8,14 @@ ___
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
+- The URL of my forked repository: https://github.com/RomanSearle/cis411_lab1_CI/tree/purelab
 - The accompanying diagram of what my fork precisely and conceptually represents...
+- {CREATE THIS AND ENTER IT AS A PNG}
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is...
-- The command to navigate to the directory when I open up the command line is...
+- My local file directory is C:\Users\Roman\Documents\GitHub\cis411_lab1_CI\labreports
+- The command to navigate to the directory when I open up the command line is $ cd Documents/GitHub/cis411_lab1_CI/labreports/
+
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -21,12 +23,13 @@ ___
 {
   "data": {
     "mutateAccount": {
-      "id": "5c345bb5-0c54-44ae-8e57-f5f00b0eddbb",
-      "name": "TREVOR BUNCH",
-      "email": "tbunch@messiah.edu"
+      "id": "824f34cd-c0f1-4408-bc91-3df51e5cbe6b",
+      "name": "Roman Searle",
+      "email": "rs1503@messiah.edu"
     }
   }
 }
+    
 ```
 
 # Step 4: Creating a feature branch
