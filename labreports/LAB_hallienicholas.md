@@ -2,17 +2,18 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Hallie Nicholas 
+**GitHub Handle:** hallienicholas 
+**Repository:** hallienicholas /
+cis411_lab1_CI
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
+- The URL of my forked repository: https://github.com/hallienicholas/cis411_lab1_CI.git
 - The accompanying diagram of what my fork precisely and conceptually represents...
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is...
+- My local file directory is... c:Documents/Github/cis411_lab1_CI
 - The command to navigate to the directory when I open up the command line is...
 
 # Step 3: Run the application locally
@@ -34,7 +35,7 @@ ___
 ```
 Insert the logs here.
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents...
+- The accompanying diagram of what my feature branch precisely and conceptually represents... fork commit and push
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
@@ -52,15 +53,30 @@ Insert the logs here.
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
+Hallies-MacBook-Pro:cis411_lab1_CI hallie1$ git log --oneline
+6518b25 (HEAD -> labreports, origin/labreports) Create LAB_hallienicholas.md
+78ede9f (origin/main, origin/HEAD, main) Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
 a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/master, origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
+dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
-...
-44ce6ae Initial commit
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
 (END)
 ```
 
