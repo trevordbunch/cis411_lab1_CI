@@ -51,10 +51,10 @@ Each time it goes through the code, there is sequence of steps it cycles through
 **What do the various sections on the config file do?**
    First, the config file tells you which version it is, and then gets into processes. 
 
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
+  **When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?**  
    
 
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
+  **If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?**  
    
 
 # Step 6: Merging the feature branch
@@ -92,6 +92,8 @@ d36ad90 Update LAB.md
 
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
+
+@isaacparada
 
 
 
