@@ -21,9 +21,9 @@ ___
 {
   "data": {
     "mutateAccount": {
-      "id": "5c345bb5-0c54-44ae-8e57-f5f00b0eddbb",
+      "id": "a1980ff5-94ad-40bd-be56-10f7a1a2ada0",
       "name": "TREVOR BUNCH",
-      "email": "tbunch@messiah.edu"
+      "email": "lopezbbrezzy@gmail.com"
     }
   }
 }
@@ -52,16 +52,7 @@ Insert the logs here.
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
-a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
-1ead543 remove LAB.md
-8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/main, origin/main, origin/HEAD, main) Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
-...
-44ce6ae Initial commit
-(END)
+PUT IN HERE
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
