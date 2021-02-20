@@ -2,8 +2,8 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Hallie Nicholas 
-**GitHub Handle:** hallienicholas 
+**Name:** Hallie Nicholas  
+**GitHub Handle:** hallienicholas  
 **Repository:** hallienicholas /
 cis411_lab1_CI
 ___
@@ -14,9 +14,9 @@ ___
   ![Fork Diagram](../assets/diagram_fork.png)
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is... c:Documents/Github/cis411_lab1_CI
-- The command to navigate to the directory when I open up the command line is...
-  cd Documents/GitHub/cis411_lab1_CI
+- **My local file directory is...** c:Documents/Github/cis411_lab1_CI
+- **The command to navigate to the directory when I open up the command line is...**  
+cd tDocuments/GitHub/cis411_lab1_CI
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -47,7 +47,7 @@ a4096db Create README.md
 
 1) **What is the .circleci/config.yml doing?**
   
-Each time it goes through the code, there is sequence of steps it cycles through which can be seen in the image below. First, it starts the environment and gets everything going. Then, it makes sure the code is working together and branches are up to date. After that, the cache is restored and installs dependencies for the project. Finally it saves the cache and makes sure the dependencies are running properly.
+Each time it goes through the code, there is a sequence of steps it cycles through which can be seen in the image below. First, it starts the environment and gets everything going. Then, it makes sure the code is working together and branches are up to date. After that, the cache is restored and installs dependencies for the project. Finally it saves the cache and makes sure the dependencies are running properly.
 
 ![Config.yml Sequence](../assets/yml_sequence.png)
 
@@ -59,10 +59,16 @@ Each time it goes through the code, there is sequence of steps it cycles through
 
   3) **When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?**
 
-  This indicates philosophically that the build has entered into the VM and is fit to run as it should, thus being ready for release. Practically speaking, it has been debugged and there doesn't seem to be anything wrong with the build.
+This indicates philosophically that the build has entered into the VM and is fit to run as it should, thus being ready for release. Practically speaking, it has been debugged and there doesn't seem to be anything wrong with the build.
 
   4) **If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?**
    
+To ready this project for continuous delivery I might:
+
+1) Have the code check if it passed all the requirements it tested for.
+
+
+2) Write the code so that it would automatically move build from the repo to production.
 
    
 
