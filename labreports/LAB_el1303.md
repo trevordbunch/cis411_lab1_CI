@@ -2,14 +2,15 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Emily Lopez 
+**GitHub Handle:** el1303  
+**Repository:** el1303/cis411_lab1_CI
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
+- The URL of my forked repository: [Fork URL](https://github.com/el1303/cis411_lab1_CI.git)
 - The accompanying diagram of what my fork precisely and conceptually represents...
+- 
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is...
@@ -22,7 +23,7 @@ ___
   "data": {
     "mutateAccount": {
       "id": "a1980ff5-94ad-40bd-be56-10f7a1a2ada0",
-      "name": "TREVOR BUNCH",
+      "name": "Emily Lopez",
       "email": "lopezbbrezzy@gmail.com"
     }
   }
@@ -32,7 +33,27 @@ ___
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-Insert the logs here.
+
+1e24349 your commit and reference @trevordbunch in the message
+f8513e0 (upstream/purelab, origin/purelab, purelab) Update Node links to Instructions
+d4f22eb Update repo branch names
+0e3ae4c Reset purelab
+050b420 Merge pull request #2 from trevordbunch/main
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
+a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
+1ead543 remove LAB.md
+8c38613 Initial commit of labreport with @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+:
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 
@@ -52,11 +73,32 @@ Insert the logs here.
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-PUT IN HERE
+b3d18bb (HEAD -> labreport, origin/labreport) Application Local
+2cec448 Create config.yml
+1e24349 your commit and reference @trevordbunch in the message
+f8513e0 (upstream/purelab, origin/purelab, purelab) Update Node links to Instructions
+d4f22eb Update repo branch names
+0e3ae4c Reset purelab
+050b420 Merge pull request #2 from trevordbunch/main
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
+a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
+1ead543 remove LAB.md
+8c38613 Initial commit of labreport with @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/circleci.png)
 
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
