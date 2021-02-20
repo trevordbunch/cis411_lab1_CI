@@ -64,7 +64,7 @@ d36ad90 Update LAB.md
 4562cd8 added npm and node install repreq
 255051e adding template
 13a09b7 Adding the LAB.md and correcting some instructions.
-d2ddea5 Version 0.0.1 of the lab isntructions
+d2ddea5 Version 0.0.1 of the lab instructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
@@ -77,25 +77,28 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ``` 
-- The accompanying diagram of what my feature branch precisely and conceptually represents...
+- The accompanying diagram of what my feature branch precisely and conceptually represents:  
+  ![](../assets/Main_Vs_Feature.jpg)
 
 # Step 5: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?  
-This file tells CircleCI how to configure their processes to work with our project. It can also store network preferences that allow the connection to happen because both programs are on the same page when it comes to settings. A .yml file is in a language that is easy to translate to other languages.
+- What is the .circleci/config.yml doing?
+  - This file tells CircleCI how to configure their processes to work with the project. The file can also store network preferences that allow the connection to happen because both programs are on the same page when it comes to settings. An .yml file is in a language that is easy to translate to other languages.
 
-- What do the various sections on the config file do?  
-   Orbs: "Reusable snippets of code that help automate processes
-   Workflows:
-   Jobs:
-
+- What do the various sections on the config file do?
+  - **Orbs**: Are packages of configuration code that people share to make creating a config file easier.
+  - **Workflows**: Using rules, keep jobs in their run order. This keeps everyone up to date on progress.
+  - **Jobs**: A collection of different processes that are ran together as a unit. 
+  
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-   
+  - That mean that the code passed the automated debugging process. The code will be tested just to make sure it functions with predefined tests. This also makes sure that the code will actually deploy and run. If the code still functions but does not do what it was intended, it will still be a "successful" build.
 
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+  - I would make sure that everyone that was working on the project knew how the code functioned, to keep errors minimal. I would want a beta stream and a stable stream to catch bugs before they go public. I also would also want to automate everything that I can.
    
 
 # Step 6: Merging the feature branch
-* The output of my git commit log
+The output of my git commit log:
+
 ```
 Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
 dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
@@ -109,11 +112,12 @@ a4096db Create README.md
 (END)
 ```
 
-* A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+* A screenshot of the _Jobs_ list in CircleCI:
+![CircleCI Success](../assets/Screenshot_of_Jobs.png)
 
 # Step 7: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
+Artur's GitHub:  
+Joe T's GitHub:
 
 
 
