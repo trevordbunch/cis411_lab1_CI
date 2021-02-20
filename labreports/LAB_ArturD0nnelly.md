@@ -22,7 +22,7 @@ ___
 {
   "data": {
     "mutateAccount": {
-      "id": "4fc24b86-5819-4d90-9dc7-9ae6e25f9491",
+      "id": "21089d07-26c4-4d2f-864a-9094ccd230d2",
       "name": "Seth Artur Donnelly",
       "email": "artirstepnov@gmail.com"
     }
@@ -33,9 +33,8 @@ ___
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-a7271d8 (HEAD -> labreport, origin/labreport) Worked through step 5 in the repository forked from @trevordbunch
-e51cd04 Finishing step 1 - 3
-2d87808 Commiting first changest to labreport
+5dca7bf (HEAD -> labreport, origin/labreport) Working through step 5
+88e2738 creating new branch from forked repository of @trevordbunch
 7490dcb (upstream/main, origin/main, origin/HEAD, main) Add Links to Node in Instructions
 ecaaa53 Update branch terminology
 c552213 Merge pull request #3 from hallienicholas/main
