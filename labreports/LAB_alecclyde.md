@@ -8,17 +8,17 @@ ___
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: [ENTER URL HERE](https://github.com/alecclyde/cis411_lab1_CI)
+- The URL of my forked repository: [URL HERE](https://github.com/alecclyde/cis411_lab1_CI)
   
 - The accompanying diagram of what my fork precisely and conceptually represents... ![](../assets/HowGitHubWorks.jpg)
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is... C:\Users\alecc\Documents\GitHub\cis411_lab0_req
   
-- The command to navigate to the directory when I open up the command line is... "cd >folder<"
+- The command to navigate to the directory when I open up the command line is... **"cd >folder<"**
 
 # Step 3: Run the application locally
-- My GraphQL response from adding myself as an account on the test project
+- My GraphQL response from adding myself as an account on the test project:
 ``` json
 {
   "data": {
@@ -32,7 +32,7 @@ ___
 ```
 
 # Step 4: Creating a feature branch
-- The output of my git commit log
+- The output of my git commit log:
 ```
 2d0d321 (HEAD -> labreport, origin/labreport) Added a feature branch.
 f6aebbd (origin/purelab, purelab) Updated package-lock.json
@@ -76,7 +76,7 @@ ce1fcea circleci default config
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
-```
+``` 
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 
 # Step 5: Setup a Continuous Integration configuration
