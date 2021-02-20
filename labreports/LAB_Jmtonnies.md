@@ -6,7 +6,8 @@
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: https://github.com/Jmtonnies/cis411_lab1_CI
+- The URL of my forked repository: 
+  - https://github.com/Jmtonnies/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents...
 
 ![Relationship Diagram](../assets/Purelab_Relationship.JPG)
@@ -14,13 +15,13 @@ ___
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is...
-C:\Users\hotwh\Documents\GitHub\cis411_lab1_CI
+  - C:\Users\hotwh\Documents\GitHub\cis411_lab1_CI
 - The command to navigate to the directory when I open up the command line is...
-cd"C:\Users\hotwh\Documents\GitHub\cis411_lab1_CI"
+  - cd"C:\Users\hotwh\Documents\GitHub\cis411_lab1_CI"
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
-``` json
+``` 
 {
   "data": {
     "mutateAccount": {
@@ -35,9 +36,20 @@ cd"C:\Users\hotwh\Documents\GitHub\cis411_lab1_CI"
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-Insert the logs here.
+commit 5d2dda3fd631e1832c712e2a6782911456f76499
+Author: Jmtonnies <jmtonnies@gmail.com>
+Date:   Fri Feb 19 16:03:51 2021 -0500
+
+    Running npm and creating feature brach
+
+    Did step 1 - 4
+
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents...
+*Comment: I apologize for the committing this after this step when reviewing I realized I needed to commit after step 3.*
+
+- The accompanying diagram of what my feature branch precisely and conceptually represents
+![Relationship Diagram](../assets/Main_Relationship.jpg)
+
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing:  
@@ -51,6 +63,8 @@ Insert the logs here.
   - Jobs: A collection of steps that are executed in a container that would be run in something like docker.
 
   - Steps: The executable commands within the job.
+
+  - *Summarized from Source: https://circleci.com*
     
    
 
@@ -65,11 +79,29 @@ Insert the logs here.
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
+Author: Jmtonnies <jmtonnies@gmail.com>
+Date:   Fri Feb 19 17:16:29 2021 -0500
+
+    Working through step 5
+
+    Committing after getting a success link to CIrcle.ci
+
+commit f47fb1c10641b144daf2c48910cb7db32546ebf6 (origin/labreport)
+Author: Jmtonnies <jmtonnies@gmail.com>
+Date:   Fri Feb 19 16:05:46 2021 -0500
+
+    Create config.yml
+
+commit 5d2dda3fd631e1832c712e2a6782911456f76499
+Author: Jmtonnies <jmtonnies@gmail.com>
+Date:   Fri Feb 19 16:03:51 2021 -0500
+
+    Running npm and creating feature brach
+
+    Did step 1 - 4
+
 
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
-
-# Step 7: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
+![CircleCI Success](../assets/Circle_Check.png)
