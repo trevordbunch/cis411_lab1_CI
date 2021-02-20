@@ -2,18 +2,20 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Alec Chappell  
+**GitHub Handle:** @alecclyde  
+**Repository:** [Alecclyde's Forked Repository](https://github.com/alecclyde/cis411_lab1_CI)  
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
-- The accompanying diagram of what my fork precisely and conceptually represents...
+- The URL of my forked repository: [ENTER URL HERE](https://github.com/alecclyde/cis411_lab1_CI)
+  
+- The accompanying diagram of what my fork precisely and conceptually represents... ![](../assets/HowGitHubWorks.jpg)
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is...
-- The command to navigate to the directory when I open up the command line is...
+- My local file directory is... C:\Users\alecc\Documents\GitHub\cis411_lab0_req
+  
+- The command to navigate to the directory when I open up the command line is... "cd >folder<"
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -79,10 +81,12 @@ ce1fcea circleci default config
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
-
+This file tells CircleCI how to configure their processes to work with our project. It can also store network preferences that allow the connection to happen because both programs are on the same page when it comes to settings. A .yml file is in a language that is easy to translate to other languages.
 
 - What do the various sections on the config file do?  
-   
+   Orbs: "Reusable snippets of code that help automate processes
+   Workflows:
+   Jobs:
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
    
