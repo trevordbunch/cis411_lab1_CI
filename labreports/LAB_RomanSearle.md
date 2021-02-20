@@ -7,6 +7,12 @@ ___
 **Repository:** https://github.com/RomanSearle/cis411_lab1_CI 
 ___
 
+# Collaboration
+- @alecclyde - assisted with the part 5 questions
+- @mcjo163 - assisted with the part 5 questions, yml config file contents, and looked over my diagrams
+- @NedacNostrebor - helped with yml file contents
+- @hallienicholas - assisted with log files
+
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/RomanSearle/cis411_lab1_CI/tree/purelab
 - The accompanying diagram of what my fork precisely and conceptually represents...
