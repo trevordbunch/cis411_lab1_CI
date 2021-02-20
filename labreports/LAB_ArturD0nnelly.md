@@ -100,28 +100,60 @@ ce1fcea circleci default config
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
+5612126 (HEAD -> main, origin/labreport, labreport) Merge branch 'labreport' of https://github.com/ArturD0nnelly/cis411_lab1_CI into labreport
+81bbd36 Update config.yml
+ea26eb7 Still working on step 6
+a6264b5 Updated config.yml
+ca49373 Working on step 6
+77ee1d5 Thouching up on step 1 through step 5
+5dca7bf Working through step 5
+88e2738 creating new branch from forked repository of @trevordbunch
+7490dcb (upstream/main, origin/main, origin/HEAD) Add Links to Node in Instructions
+ecaaa53 Update branch terminology
+c552213 Merge pull request #3 from hallienicholas/main
+78ede9f Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
 a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/main, origin/main, origin/HEAD, main) Merge pull request #24 from tangollama/circleci
+dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
-...
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
+968099e remove test db
+7362cd1 working
 44ce6ae Initial commit
-(END)
+
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/Screenshot.png)
 
 # Step 7: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
-
-
-
-# Step 8: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
+Alec Chappell: @alecclyde   
+Joe Tonnies: @Jmtonnies        
