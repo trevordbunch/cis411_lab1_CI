@@ -113,16 +113,9 @@ a4096db Create README.md
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI:
-![CircleCI Success](../assets/Screenshot_of_Jobs.png)
+![CircleCI Success](../assets/Final%20Screenshot.png)
 
 # Step 7: Submitting a Pull Request
-Artur's GitHub:  
-Joe T's GitHub:
-
-
-
-# Step 8: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
+**Credit to:**  
+Artur's GitHub: [@ArturD0nnelly](https://github.com/ArturD0nnelly)    
+Joe T's GitHub: [@Jmtonnies](https://github.com/Jmtonnies)
