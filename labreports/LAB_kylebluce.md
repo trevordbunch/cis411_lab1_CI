@@ -2,18 +2,18 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Kyle Luce  
+**GitHub Handle:** https://github.com/kylebluce  
+**Repository:** https://github.com/kylebluce/cis411_lab1_CI  
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
+- The URL of my forked repository: https://github.com/kylebluce/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents...
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is...
-- The command to navigate to the directory when I open up the command line is...
+- My local file directory is... "C:\Users\Kyle Luce\Documents\GitHub\cis411_lab1_CI"    
+- The command to navigate to the directory when I open up the command line is... "cd C:\Users\Kyle Luce\Documents\GitHub\cis411_lab1_CI"    
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
