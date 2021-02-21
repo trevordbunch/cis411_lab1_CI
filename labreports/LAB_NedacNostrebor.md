@@ -10,7 +10,7 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/NedacNostrebor/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents...
-
+- [Fork Diagram](../assets/NedacNostrebor_Fork.png)
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is ```C:Users\Sling\Git_test\cis411lab_CI```
 - The command to navigate to the directory when I open up the command line is ```cd cis411_lab1_CI```
@@ -31,7 +31,7 @@ ___
 
 # Step 4: Creating a feature branch
 - The output of my git commit log
-```
+``` powershell
 d7b4a9f (HEAD -> labreport, origin/labreport) Coppied lab report template @trevordbunch
 c552213 (origin/main, origin/HEAD, main) Merge pull request #3 from hallienicholas/main
 78ede9f Corrected error
@@ -45,19 +45,22 @@ a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
+- [Branch Diagram](../assets/NedacNostrebor_Branch.png)
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
-
+It tells CircleCI how to configure to work with the code.
 
 - What do the various sections on the config file do?  
-   
+   Orb: A reusable package of YAML configuration that condenses repeated pieces of ocnfig into a single line of code.
+   Workflows: A set of rules for defining a collection of jobs and their run order.
+   Jobs: a collection of steps.
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-   
+   It indicates that the build is stable and is successfully integrated.
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
-   
+   I don't think I would make any changes
 
 # Step 6: Merging the feature branch
 * The output of my git commit log
