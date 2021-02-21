@@ -16,7 +16,7 @@ ___
 # Step 2: Clone your forked repository from the command line  
 - **My local file directory is...** c:Documents/Github/cis411_lab1_CI
 - **The command to navigate to the directory when I open up the command line is...**  
-cd tDocuments/GitHub/cis411_lab1_CI
+cd Documents/GitHub/cis411_lab1_CI
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -40,7 +40,7 @@ a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents... fork commit and push
+- The accompanying diagram of what my feature branch precisely and conceptually represents... 
   ![Feature Branch](../assets/branch.png)
 
 # Step 5: Setup a Continuous Integration configuration
@@ -108,12 +108,6 @@ d36ad90 Update LAB.md
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
 
-@isaacparada
+@isaacparada  
+@el1303
 
-
-
-# Step 8: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
