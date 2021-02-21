@@ -9,7 +9,8 @@ ___
 
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/airgo32/cis411_lab1_CI
-- The accompanying diagram of what my fork precisely and conceptually represents...
+- The accompanying diagram of what my fork precisely and conceptually represents:   
+<img src="../assets/Fork Diagram.png">
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is:   
@@ -76,7 +77,9 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents:
+- The accompanying diagram of what my feature branch precisely and conceptually represents:   
+<img src="../assets/Branch Diagram.png">
+
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
