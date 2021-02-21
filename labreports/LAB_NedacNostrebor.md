@@ -44,19 +44,6 @@ dbf826a Answer Step 4
 a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 ```
-``` powershell
-9799e23 (HEAD -> main, labreport) Lab report Finished
-cd1229e lab report progress
-da2430c Half done lab report
-d7b4a9f (origin/labreport) Coppied lab report template @trevordbunch
-c552213 (origin/main, origin/HEAD) Merge pull request #3 from hallienicholas/main
-78ede9f Corrected error
-1fe415c Merge pull request #1 from trevordbunch/labreport
-13e571f Update Lab readme, instructions and templates
-eafe253 Adjust submitting instructions
-47e83cd Add images to LabReport
-ec18770 Add Images
-```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 - [Branch Diagram](../assets/NedacNostrebor_Branch.png)
 
@@ -77,17 +64,18 @@ It tells CircleCI how to configure to work with the code.
 
 # Step 6: Merging the feature branch
 * The output of my git commit log
-```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
-a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
-1ead543 remove LAB.md
-8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/master, origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
-...
-44ce6ae Initial commit
-(END)
+``` powershell
+9799e23 (HEAD -> main, labreport) Lab report Finished
+cd1229e lab report progress
+da2430c Half done lab report
+d7b4a9f (origin/labreport) Coppied lab report template @trevordbunch
+c552213 (origin/main, origin/HEAD) Merge pull request #3 from hallienicholas/main
+78ede9f Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
