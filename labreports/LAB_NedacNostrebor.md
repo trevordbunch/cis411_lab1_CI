@@ -10,7 +10,7 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/NedacNostrebor/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents...
-- [Fork Diagram](../assets/NedacNostrebor_Fork.png)
+![Fork Diagram](../assets/NedacNostrebor_Fork.png)
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is ```C:Users\Sling\Git_test\cis411lab_CI```
 - The command to navigate to the directory when I open up the command line is ```cd cis411_lab1_CI```
@@ -45,7 +45,7 @@ a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
-- [Branch Diagram](../assets/NedacNostrebor_Branch.png)
+![Branch Diagram](../assets/NedacNostrebor_Branch.png)
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
