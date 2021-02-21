@@ -44,6 +44,19 @@ dbf826a Answer Step 4
 a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
 ```
+``` powershell
+9799e23 (HEAD -> main, labreport) Lab report Finished
+cd1229e lab report progress
+da2430c Half done lab report
+d7b4a9f (origin/labreport) Coppied lab report template @trevordbunch
+c552213 (origin/main, origin/HEAD) Merge pull request #3 from hallienicholas/main
+78ede9f Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 - [Branch Diagram](../assets/NedacNostrebor_Branch.png)
 
@@ -78,7 +91,7 @@ a4096db Create README.md
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/NedacNostrebor_CISuccess.png)
 
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
