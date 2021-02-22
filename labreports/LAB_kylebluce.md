@@ -63,16 +63,17 @@ I think the some of the most important aspects of continuous delivery is to be a
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
-a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
-1ead543 remove LAB.md
-8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/main, origin/main, origin/HEAD, main) Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
+b415e58 (HEAD -> main, origin/labreport, labreport) Update LAB_kylebluce.md
+15a32d1 Add files via upload
+5986e5d Update LAB_kylebluce.md
+7c5f1a6 Update LAB_kylebluce.md
+164b250 Update LAB_kylebluce.md
+919e6af Update LAB_kylebluce.md
+76e5981 Add files via upload
+fd03085 Update LAB_kylebluce.md
+3cb2069 Update LAB_kylebluce.md
+6c2c45e (HEAD -> main, labreport) Delete .circleci directory
 ...
-44ce6ae Initial commit
-(END)
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
