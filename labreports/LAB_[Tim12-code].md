@@ -67,19 +67,21 @@ a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-
+67d89a3 (HEAD -> main) commit on main
+4c7ef1c Merge branch 'labreport' into main
+3e665de (labreport) final commit
+baa28a5 (origin/labreport) commiting branch from @trevorbunch repository
+f8513e0 (upstream/purelab, origin/purelab, purelab) Update Node links to Instructions
+7490dcb (upstream/main, origin/main, origin/HEAD) Add Links to Node in Instructions
+ecaaa53 Update branch terminology
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/screenshotjobs.png)
 
 # Step 7: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
-
+- pull request sent
 
 
 # Step 8: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
+- N/A
