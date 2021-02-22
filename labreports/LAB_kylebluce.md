@@ -32,21 +32,26 @@ ___
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-Insert the logs here.
+964e930 (HEAD -> labreport, origin/labreport) labreport @trevordbunch
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
 
+According to the CircleCI website, config.yml is a powerful file that defines the entire pipeline for a project. That means that this file is reponsible for the connection between CircleCI and GitHub. This file represents all the changes made during the Continuous Integration process.
 
-- What do the various sections on the config file do?  
+- What do the various sections on the config file do? 
+
+The config file has the following sections: workflows, jobs, orbs, executors, and commands. Workflows represent multiple jobs or tasks to be done. The jobs go through a series of steps that run commands. Executors define build environments which are used to run jobs. Orbs are reusable snippets of code that can be used anywhere throughout the config.
    
-
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-   
+
+When a CI build is successful, that means that the build is running without errors and is connected to GitHub properly. It means that the process of continous integration is working with whatever you have setup in the config file and the rest of your project.
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
+
+I think the some of the most important aspects of continuous delivery is to be able to keep the project up to date. So. I would make sure that the project was being continuously updates. I think the other thing I would implement is additional security measures so that the project was safe from being tampered with. That would probably include additional access control and possibly encryption.
    
 
 # Step 6: Merging the feature branch
@@ -66,14 +71,3 @@ a4096db Create README.md
 
 * A screenshot of the _Jobs_ list in CircleCI
 ![CircleCI Success](../assets/circleci_success.png)
-
-# Step 7: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
-
-
-
-# Step 8: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
