@@ -2,10 +2,10 @@ Course: CIS 411, Spring 2021
 Instructor(s): Trevor Bunch
 Name: Joe Vera
 GitHub Handle: JoeV22
-Repository: [Your Forked Repository](https://github.com/JoeV22/cis411_lab1_CI)
+Repository: [My Forked Repository](https://github.com/JoeV22/cis411_lab1_CI)
 
 https://github.com/trevordbunch/cis411_lab1_CI/tree/purelab
-
+  ![Forked Repository Diagram](../assets/Forked repository Diagram.png)   
 graph ql response
 {
   "data": {
