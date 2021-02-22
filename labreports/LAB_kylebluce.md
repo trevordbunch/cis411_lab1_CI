@@ -73,7 +73,6 @@ b415e58 (HEAD -> main, origin/labreport, labreport) Update LAB_kylebluce.md
 fd03085 Update LAB_kylebluce.md
 3cb2069 Update LAB_kylebluce.md
 6c2c45e (HEAD -> main, labreport) Delete .circleci directory
-...
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
