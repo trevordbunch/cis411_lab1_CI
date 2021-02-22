@@ -2,18 +2,20 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Felix Zarate  
+**GitHub Handle:** @felixzrte 
+**Repository:** cis411_lab_CI 
 ___
 
 # Step 1: Fork this repository
-- The URL of my forked repository: ENTER URL HERE
+- The URL of my forked repository: https://github.com/felixzrte/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents...
+![Fork Diagram](../assets/Fork_Diagram.pdf)
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is...
-- The command to navigate to the directory when I open up the command line is...
+- My local file directory is: /Users/felixzarate/Documents/GitHub/cis411_lab1_CI
+- The command to navigate to the directory when I open up the command line is:
+cd /Users/felixzarate/Documents/GitHub/cis411_lab1_CI
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -21,9 +23,9 @@ ___
 {
   "data": {
     "mutateAccount": {
-      "id": "5c345bb5-0c54-44ae-8e57-f5f00b0eddbb",
-      "name": "TREVOR BUNCH",
-      "email": "tbunch@messiah.edu"
+      "id": "362c952d-f066-4c61-b90c-5b7223faf7bb",
+      "name": "Felix Zarate",
+      "email": "fz1151@messiah.edu"
     }
   }
 }
@@ -32,36 +34,30 @@ ___
 # Step 4: Creating a feature branch
 - The output of my git commit log
 ```
-Insert the logs here.
+8065951 (HEAD -> labreport, origin/labreport) your commit and reference @trevorbunch in the message
+7490dcb (upstream/main, origin/main, origin/HEAD, main) Add Links to Node in Instructions
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
+![Fork Diagram](../assets/Branch_Diagram.pdf)
+
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
-
+This file is what will be read when CircleCI is ran. This file contains code that serves the purpose, "to orchestrate your build, tests, security scans, approval steps, and deployment." (https://circleci.com/docs/2.0/config-intro/)
 
 - What do the various sections on the config file do?  
-   
+  Within the config file, there are multiple levels. The top-level is the jobs keyword and within jobs, you have the build keyword. In this file, build is the only job. Step contains all the run commands which will run the code in the order that the run statement are put in.
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-   
+   If the build is successful then that tells the team that the build can be pushed or deployed.
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
-   
+Integrate the continuous delivery process into an agile framework. Agile teams would focus on specific features that need to be refined.   
 
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
-a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
-1ead543 remove LAB.md
-8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/main, origin/main, origin/HEAD, main) Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
-...
-44ce6ae Initial commit
-(END)
+
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
