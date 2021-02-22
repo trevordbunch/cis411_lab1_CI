@@ -9,11 +9,17 @@ ___
 
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/kylebluce/cis411_lab1_CI
-- The accompanying diagram of what my fork precisely and conceptually represents...
+
+![ForkedRepoDiagram](/assets/cis411lab1drawing1.png)
 
 # Step 2: Clone your forked repository from the command line  
-- My local file directory is... "C:\Users\Kyle Luce\Documents\GitHub\cis411_lab1_CI"    
-- The command to navigate to the directory when I open up the command line is... "cd C:\Users\Kyle Luce\Documents\GitHub\cis411_lab1_CI"    
+- My local file directory is...
+
+"C:\Users\Kyle Luce\Documents\GitHub\cis411_lab1_CI"    
+
+- The command to navigate to the directory when I open up the command line is... 
+
+"cd C:\Users\Kyle Luce\Documents\GitHub\cis411_lab1_CI"    
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -34,7 +40,7 @@ ___
 ```
 964e930 (HEAD -> labreport, origin/labreport) labreport @trevordbunch
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents...
+![FeatureBranchDiagram](/assets/cis411lab1drawing2.png)
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
