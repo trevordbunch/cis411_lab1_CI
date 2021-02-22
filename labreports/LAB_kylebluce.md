@@ -70,4 +70,4 @@ a4096db Create README.md
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Jobs](/assets/cis411CIjobs.png)
+![CircleCI Jobs](/assets/cis411CIJobs.png)
