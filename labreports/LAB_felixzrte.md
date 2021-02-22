@@ -57,7 +57,9 @@ Integrate the continuous delivery process into an agile framework. Agile teams w
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-
+22d650f (HEAD -> main, labreport) Merge Commit
+8065951 (origin/labreport) your commit and reference @trevorbunch in the message
+7490dcb (upstream/main, origin/main, origin/HEAD) Add Links to Node in Instructions
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
